@@ -63,5 +63,5 @@ Text <br/> deployment. <br/><br/>
   <br/>
 <p align="left">
 Text <br/> deployment. <br/><br/>
-  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="Screenshot 2025-04-30 214541.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
