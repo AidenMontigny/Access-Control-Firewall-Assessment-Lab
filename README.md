@@ -19,3 +19,49 @@ This project demonstrates the configuration and assessment of firewall rules usi
 Documented the successful completion of the Active Directory installation selection process, <br/> confirming that all necessary components were properly configured for domain services <br/> deployment. <br/><br/>
   <img src="Screenshot 2025-04-17 202325.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
+
+  
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="Screenshot 2025-04-30 214420.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="Screenshot 2025-04-30 214541.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Text <br/> deployment. <br/><br/>
+  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
