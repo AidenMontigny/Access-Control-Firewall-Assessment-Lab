@@ -25,31 +25,31 @@ The pfSense URL is configured to end with port 8443. <br/><br/>
   <img src="Screenshot 2025-04-30 214428.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-The Traffic Graph has been successfully integrated into the dashboard for real-time network traffic monitoring. <br/><br/>
+The Traffic Graph has been successfully integrated into the dashboard for real-time network  <br/> traffic monitoring. <br/><br/>
   <img src="Screenshot 2025-04-30 214437.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-The ports associated with World of Warcraft (6881-6999) have been successfully blocked to restrict <br/> access and enhance network security. <br/><br/>
+The ports associated with World of Warcraft (6881-6999) have been successfully blocked to  <br/> restrict access and enhance network security. <br/><br/>
   <img src="Screenshot 2025-04-30 214444.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-The ICMP protocol has been successfully blocked on the pfSense firewall to prevent potential network <br/> reconnaissance and mitigate DDoS attack risks. <br/><br/>
+The ICMP protocol has been successfully blocked on the pfSense firewall to prevent potential  <br/> network reconnaissance and mitigate DDoS attack risks. <br/><br/>
   <img src="Screenshot 2025-04-30 214452.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-The firewall configuration successfully blocks access to two social media websites, enhancing network <br/> security by restricting non-essential web traffic. <br/><br/>
+The firewall configuration successfully blocks access to two social media websites, enhancing  <br/> network security by restricting non-essential web traffic. <br/><br/>
   <img src="Screenshot 2025-04-30 214459.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-The firewall configuration has disabled access to specific domains, preventing any communication or  <br/> data exchange with those sites for enhanced security. <br/><br/>
+The firewall configuration has disabled access to specific domains, preventing any communication  <br/> or  data exchange with those sites for enhanced security. <br/><br/>
   <img src="Screenshot 2025-04-30 214508.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-Access to two streaming media websites has been blocked, ensuring that network resources are protected <br/> from potentially unauthorized or high-bandwidth traffic. <br/><br/>
+Access to two streaming media websites has been blocked, ensuring that network resources are <br/> protected from potentially unauthorized or high-bandwidth traffic. <br/><br/>
   <img src="Screenshot 2025-04-30 214515.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-The domains have been disabled to prevent access to specific websites, enhancing network security by <br/> restricting unwanted or potentially harmful traffic. <br/><br/>
+The domains have been disabled to prevent access to specific websites, enhancing network security <br/> by  restricting unwanted or potentially harmful traffic. <br/><br/>
   <img src="Screenshot 2025-04-30 214524.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
