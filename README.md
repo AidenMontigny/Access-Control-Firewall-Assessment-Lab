@@ -60,3 +60,12 @@ The Nmap command is executed on the pfSense firewall's IP address to perform a n
 The GVM scan report provides detailed findings from a vulnerability assessment, highlighting  <br/> potential security weaknesses and areas for improvement in the system’s configuration. <br/><br/>
   <img src="Screenshot 2025-04-30 214541.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
+
+
+<h2>Write Up</h2>
+
+<p><u> Examining a Specific Architecture </u></p>
+<p>This assignment utilized our hybrid network, which incorporates LAN configuration with internet-facing services. We utilized tools such as the pfSense firewall and Greenbone Vulnerability Manager to provide security and vulnerability assessments. Overall, this architecture supports internal and external network communications. </p>
+
+<p><u> Identified Potential Vulnerabilities </u></p>
+<p>Misconfigured firewall rules in pfSense, such as leaving unnecessary ports open or allowing inbound ICMP traffic, can expose internal resources to unauthorized access and DDoS attacks. To mitigate this, firewall rules should only allow critical ports to be open. Protocol-specific vulnerabilities, such as outdated SSL/TLS or unencrypted HTTP, can lead to Man-in-the-Middle attacks, so enforcing HTTPS is crucial. Hybrid networks relying on third-party services, like video streaming or social media, also present risks from bypassed filters or poorly secured APIs. Monitoring service traffic through vulnerability scans can mitigate this. Overall, this lab aided me in better understanding the importance of firewall rules and configurations.</p>
