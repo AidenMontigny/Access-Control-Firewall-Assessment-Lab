@@ -4,6 +4,18 @@
 This project demonstrates the configuration and assessment of firewall rules using pfSense within a hybrid network environment. The lab involved implementing access control policies to restrict specific traffic types—such as gaming ports, ICMP, social media, and streaming services—and validating the rules using tools like Nmap and Greenbone Vulnerability Manager (GVM). Key outcomes include reinforcing secure port management, enforcing encrypted communication (HTTPS), and applying domain blocking for enhanced policy control. The project highlights practical network security implementation and vulnerability mitigation in real-world scenarios.
 <br />
 
+<h2>GuardianScan App</h2>
+This repository now includes a lightweight Flask application (GuardianScan) that runs local intrusion and malware scans and surfaces results in an admin dashboard. The app orchestrates Nmap for intrusion scanning and ClamAV for malware scanning, recording outputs to a local SQLite database for review in the admin section.
+<br />
+
+<h3>Quick Start</h3>
+<ol>
+  <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
+  <li>Ensure Nmap and ClamAV are installed locally and available on your PATH.</li>
+  <li>Run the app: <code>python app.py</code></li>
+  <li>Open <code>http://localhost:5000</code> to run scans and view reports.</li>
+</ol>
+
 <h2>Utilities Used</h2>
 
 - <b> pfSense </b> 
