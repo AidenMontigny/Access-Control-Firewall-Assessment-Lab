@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="card">
+  <h2>Admin Scan Reports</h2>
+  <p>Review scan output and identify suspicious or unexpected results.</p>
+</section>
+
+{% for scan in scans %}
+  <section class="card">
+    <div class="card-header">
+      <div>
+        <h3>{{ scan.scan_type | capitalize }} scan</h3>
+        <p class="muted">Target: {{ scan.target }}</p>
+      </div>
+      <span class="status status-{{ scan.status }}">{{ scan.status }}</span>
+    </div>
+    <p class="muted">{{ scan.created_at }} UTC</p>
+    <pre class="output">{{ scan.output }}</pre>
+  </section>
+{% else %}
+  <section class="card">
+    <p class="muted">No scans yet. Trigger a scan from the overview page.</p>
+  </section>
+{% endfor %}
+{% endblock %}

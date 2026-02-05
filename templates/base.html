@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GuardianScan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <h1>GuardianScan</h1>
+        <p>Local intrusion and malware scan orchestrator with admin reporting.</p>
+      </div>
+      <nav>
+        <a href="{{ url_for('index') }}">Overview</a>
+        <a href="{{ url_for('admin') }}">Admin</a>
+      </nav>
+    </header>
+    <main class="content">{% block content %}{% endblock %}</main>
+    <footer class="site-footer">
+      <p>Tip: Install Nmap and ClamAV on your device for full scanning capabilities.</p>
+    </footer>
+  </body>
+</html>

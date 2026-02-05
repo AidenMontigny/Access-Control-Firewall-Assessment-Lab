@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="grid">
+  <article class="card">
+    <h2>Intrusion Scan</h2>
+    <p>Run a lightweight service discovery scan against a host or subnet.</p>
+    <form method="post" action="{{ url_for('scan_nmap') }}">
+      <label for="target">Target (IP/host/subnet)</label>
+      <input id="target" name="target" placeholder="192.168.1.1" required />
+      <button type="submit">Run Nmap Scan</button>
+    </form>
+  </article>
+  <article class="card">
+    <h2>Malware Scan</h2>
+    <p>Scan a directory or file with ClamAV for known malware signatures.</p>
+    <form method="post" action="{{ url_for('scan_clamav') }}">
+      <label for="path">Path</label>
+      <input id="path" name="path" placeholder="/home/user/downloads" required />
+      <button type="submit">Run ClamAV Scan</button>
+    </form>
+  </article>
+</section>
+
+<section class="card">
+  <h2>Recent Activity</h2>
+  {% if scans %}
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Target</th>
+          <th>Status</th>
+          <th>Time (UTC)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for scan in scans %}
+        <tr>
+          <td>{{ scan.scan_type }}</td>
+          <td>{{ scan.target }}</td>
+          <td><span class="status status-{{ scan.status }}">{{ scan.status }}</span></td>
+          <td>{{ scan.created_at }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p class="muted">No scans have been recorded yet.</p>
+  {% endif %}
+</section>
+{% endblock %}
